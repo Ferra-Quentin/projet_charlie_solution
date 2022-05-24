@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Koulen', sans-serif;
+    text-align: center;
+}
+body{
+    background-color: #FFF1EE;
+}
+
+h1{
+    text-align: center;
+    padding: 1em;
+}
+
+#mainNav{
+    background: linear-gradient(#FF6D37, #FFA888);
+    font-size: 1.5em;
+    padding: 1em;
+    position: sticky;
+    text-align: center;
+}
+
+
+#titre{
+    float:left;
+    color: white;
+}
+
+#mainNav li{
+    color: white;
+    display: inline;
+}
+
+#mainNav li a{
+    color: white;
+    display: inline;
+    padding: 1em;
+}
+
+table{
+    text-align: center;
+    border-spacing: 5px 1rem;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+table, th,td {
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+footer{
+    background-color: grey;
+    padding: 4em;
+    bottom: 0;
+}
+
+.global_creation{
+    background-color: coral;
+    width: 20%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 5em;
+    padding: 4em;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 3em;
+}
+
+.contenu_creation{
+    padding: 1em;
+}
+
+.contenu_creation textarea{
+    resize: none;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    height: 10em;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    width: 100%;
+    font-family: 'Koulen', sans-serif;
+    font-size: 1.2em;
+}
+
+.contenu_creation button{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    height: 3em;
+    width: 70%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.global_creation h2{
+    padding-bottom: 2em;
+}
+
+.icon{
+    color: #FF6D37;
+}
+
+.icon-poubelle{
+    color: red;
+}
+
+.header-table{
+    background-color:#FF6D37 ;
+    text-transform: uppercase;
+}
+
+.principale{
+    padding: 1.5em;
+}
+
+.choix{
+    display: inline;
+    padding: 1.5em;
+}
+
+.choix button{
+    width: 20%;
+    margin-left:auto;
+    margin-right:auto;
+    height: 3em;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.tableau_suppression{
+    text-align: center;
+    border-spacing: 5px 1rem;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tableau_suppression, th,td {
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-collapse: collapse;
+}
+
+.information_secondaire{
+    padding: 1.5em;
+}
+
+#header_video{
+    height: 200px;
+}
+
+#video-background {
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+}
+
+
